@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var path = require('path'),
+    fs = require('fs'),
+    program = require('commander'),
+    index = require('../lib/index');
+
+program.parse(process.argv);
+
+index.main(process.argv[2]);
+
