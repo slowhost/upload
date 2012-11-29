@@ -1,0 +1,43 @@
+/**
+ * @name    : ui-title
+ * @filename: ui-title.css
+ * @overview: 主站标题
+ * @date    : 2012-04-26
+ * @require : 
+ * @author  : 初成
+ * @demo    :
+ 
+ 		<div class="ui-title ui-title-line">
+            <h2>账户通</h2>
+            <div class="link">
+            	<a href="#" seed="" target="_blank">添加绑定</a>
+        		<em class="global-separator-pd">|</em><a id="viewFaq" href="#faq" seed="faq">使用遇到问题？</a>
+			 </div>
+        </div>
+ */
+
+.ui-title {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    color: #4d4d4d;
+    clear: both;
+}
+.ui-title-line {
+    border-bottom: 2px solid #808080;
+    padding-bottom: 7px;
+    margin-top: 31px;
+}
+.ui-title h2 {
+    float: left;
+    font: 700 18px/20px "STHei","Microsoft YaHei","WenQuanYi Micro Hei";
+}
+
+.ui-title h3 {
+    float: left;
+    font: 700 14px/20px tahoma,arial,\5b8b\4f53;
+}
+.ui-title .link {
+    float: left;
+    padding: 3px 0 0 8px;
+}
